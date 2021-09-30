@@ -5,6 +5,8 @@ $num2 = $_GET['n2'];
 
 $suma = $n1 + $n2;
 $resta = $n1 - $n2;
+$producto = $n1 * $n2;
+$division = $n1 / $n2;
 
 ?>
 
@@ -18,7 +20,9 @@ $resta = $n1 - $n2;
 <body>
     <h1>Resultados:</h1>
     <?php echo "<p>La suma de $n1 + $n2 = $suma</p>";
-            echo "<p>La resta de $n1 - $n2 = $resta</p>";
+          echo "<p>La resta de $n1 - $n2 = $resta</p>";
+          echo "<p>El producto de $n1 * $n2 = $producto</p>";
+          echo "<p>La resta de $n1 / $n2 = $division</p>";
     ?>
 </body>
 </html>
